@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: TpQtAI/Nr3bMbTlgsZiDKscpFfraqpPRcxeruLe+TlUHm+qyavKbecc+97pD+zzAH7bK7PoXW8tRHkFY9NJCM8uN/4WbLn4UXQowfKTaBj3rHaq6aCgELr1ofZzhx7j8FTZRkKdqw0b7aPvUekVm5FsPWlllVznBXQ/X2mf4EjoBSYmXATl6zd/XyOVkuKT1Kgya4WzYNo+GkRD0YY/0kyRJcgw3OwioJZT28al2nhSelqRkZE9oSMMYbaaTLUosoXxsnDJnABAYB9pijqWuiMYIscFV2htIHFn5q1U+cGVvu2r5rRDERIkeDiytYAlsctWJAVNpXDCiw1g9A7wcMYc8Wiwpr+vqr0V4zI7aLx0WMVDKUXK7rfN6gKsZe/Rw7iWdMPL9It66UGSD6G5IrdQI0iu4X7sreycc/ayABwYnNEmJbxe6PmEs3LIC0/d1cOWRSouoAJfSDLeQYr1B3xfyrVsad+7o13cUWuCiXB7gPpyR9UB9hzHNc3xd2IULQjB1prQ4wPvpdIHBV5WT3nj5tXu220XIaGUGQpQekY8IX0yy4gNRogO1TV+FL8kmqaOLqH+AqPrJB2tyYH3rQUrNqAJioa8N8oXrusGH+DoUDeTbnFrsYQeTGEMKejrBrfSxTli3uvaWb+EsLpJSkoKsMFr8M+NCgIJdkaP4oRM=
+  app: vast-beach-93897
+  on:
+    repo: BikeSpokeStudios/node-shopping-list-integration-tests
